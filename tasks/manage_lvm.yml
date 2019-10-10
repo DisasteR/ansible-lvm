@@ -14,6 +14,7 @@
     lv: "{{ item.1.lvname }}"
     size: "{{ item.1.size }}"
     state: present
+    shrink: no
   register: lvm
   with_subelements:
     - "{{ lvm_groups }}"
