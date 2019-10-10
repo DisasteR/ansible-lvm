@@ -1,6 +1,7 @@
 ---
 galaxy_info:
   author: Emilien Mantel
+  role_name: lvm
   description: Role to manage LVM Groups/Logical Volumes. Can be used to create, extend or resize LVM.
   company:
   license: BSD
